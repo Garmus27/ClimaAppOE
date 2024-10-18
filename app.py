@@ -1,6 +1,4 @@
-print ("hello world")
-
-
+import datetime
 
 def guardar_en_historial(consulta):
     historial = cargar_historial()
@@ -24,6 +22,6 @@ elif opcion == "2":
         resultados = filtrar_historial(30)
 elif opcion == "3":
     print("Saliendo del programa...")
-    break
+    
 else:
     print("Opción no válida. Intenta nuevamente.")
